@@ -1,0 +1,64 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: rgb(29, 221, 125);
+
+}
+
+main {
+    background-color: white;
+}
+
+header {
+    padding: 1px;
+    background: linear-gradient(rgb(0, 78, 0), rgb(70, 160, 19), rgb(25, 185, 10));
+    color: aliceblue;
+    margin: 0;
+
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3 {
+    font-family: idroid;
+    color: rgb(0, 78, 0);
+    margin-top: 2px;
+
+}
+img{
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none
+}
+
+
+#final h3{
+    color: aliceblue;
+    background-color: rgb(0, 78, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+#final{
+    background-color:  rgb(23, 175, 74);
+    border-radius: 20px;
+    padding: 10px;
+}
+img, iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
